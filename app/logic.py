@@ -33,7 +33,7 @@ stopwords = set([
     '무의미','제조','재거','버넌스','패권','도전','추론','대세','주소',
 ])
 
-def extract_keywords(titles: list[str], top_k: int = 20) -> list[str]:
+def extract_keywords(titles: list[str], top_k: int = 30) -> list[str]:
     """
     주어진 뉴스 제목 리스트에서 불용어 제거 후 Okt로 명사 추출하고,
     상위 top_k 개 키워드를 반환합니다.

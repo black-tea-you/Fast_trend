@@ -7,7 +7,7 @@ from datetime import date
 
 router = APIRouter()
 
-#날짜 범위 입력력
+#날짜 범위 입력
 class DateRangeInput(BaseModel):
     start_date: date  # ex) 2017-01-02
     end_date: date    # ex) 2017-01-30
